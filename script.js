@@ -99,7 +99,7 @@ const quizQuestions = [
   
     // Calculate the score percentage
     const scorePercentage = (score / quizQuestions.length) * 100;
-    if (scorePercentage.score > 50 ){
+    if (scorePercentage > 80 ){
         scoreWord = "Great Job! 😉"
     } else {
         scoreWord = `Better Luck Next Time! 😏`
